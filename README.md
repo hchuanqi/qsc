@@ -1,4 +1,4 @@
-# Script Collection
+# My Script Collection
 
 This repo hosts a collection my commonly used scripts.
 
