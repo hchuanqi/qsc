@@ -20,7 +20,6 @@ function usage() {
     return 0
 }
 
-
 function do_install() {
     echo "installing ..."
 
@@ -133,6 +132,7 @@ function install_dir_x() {
     for SRC in $FILE_LIST; do
         DEST=$(dest_name_x $SRC)
         install_file "$SRC" "$DEST"
+        chmod 755 "$DEST"
     done
 
     return 0
